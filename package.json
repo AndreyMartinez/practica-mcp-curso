@@ -5,6 +5,6 @@
   "description": "Repo de práctica — Nexus Parte 3: MCP + Notion + PR con revisión automática",
   "type": "module",
   "scripts": {
-    "test": "node --test tests/*.test.js"
+    "test": "node --test tests/login/*.test.js tests/sidebar/*.test.js"
   }
 }

@@ -5,7 +5,7 @@ description: Flujo de Spec-Driven Development para practica-mcp-curso. Guía el 
 
 # Spec-Driven Development (SDD) — practica-mcp-curso
 
-Versión ligera del flujo SDD para el taller. Cada "spec" aquí es una sola tarea del tablero de Notion (`src/poliza.js` tiene un TODO por tarea, con su test en `tests/poliza.test.js`).
+Versión ligera del flujo SDD para el taller. Cada "spec" aquí es una sola tarea del tablero de Notion — hay 30, cada una es una función en `src/login/*.js` (tareas 1–15) o `src/sidebar/*.js` (tareas 16–30), con su test correspondiente en `tests/login/*.test.js` o `tests/sidebar/*.test.js`.
 
 ## Fase 0 — Tomar la tarea
 
@@ -15,7 +15,7 @@ Versión ligera del flujo SDD para el taller. Cada "spec" aquí es una sola tare
 
 ## Fase 1 — Entender antes de escribir
 
-Lee el TODO de la función correspondiente en `src/poliza.js` y su test en `tests/poliza.test.js` — el test ya define exactamente el comportamiento esperado, no hace falta escribir una spec aparte para una tarea de este tamaño.
+Lee el TODO de la función correspondiente (en `src/login/` o `src/sidebar/`, según tu tarea) y su test — el test ya define exactamente el comportamiento esperado, no hace falta escribir una spec aparte para una tarea de este tamaño.
 
 Si algo del test no queda claro, pregúntale al usuario antes de implementar — no lo inventes.
 

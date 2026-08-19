@@ -24,8 +24,8 @@ jobs:
             PR NUMBER: ${{ github.event.pull_request.number }}
 
             Este es un repo de práctica de un taller de MCP. Cada PR implementa
-            una sola función pequeña en src/poliza.js a partir de un TODO y su
-            test correspondiente en tests/poliza.test.js.
+            una sola función pequeña en src/login/ o src/sidebar/ a partir de
+            un TODO y su test correspondiente en tests/login/ o tests/sidebar/.
 
             Revisa este PR con foco en:
             - ¿La función hace exactamente lo que pide el TODO? ¿Pasa su test?
